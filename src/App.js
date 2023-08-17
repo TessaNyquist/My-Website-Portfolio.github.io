@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+import logo from "./logo.svg";
 //import Navbar from './Components/Navbar';
 //import { Data } from './Data';
-import Navbar from './Components/Navbar';
-import './App.css';
+import Navbar from "./Components/Navbar";
+import "./App.css";
 //import cpic from './Images/c.svg';
 //import javapic from './Images/java.svg';
 //<img src={cpic} className="App-C" alt="c" />
@@ -13,8 +13,6 @@ import './App.css';
 </p>
 </body>
 */
-
-
 
 /*function DisplayItems() {
   return Data.map(skill => (
@@ -31,6 +29,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <Navbar>Navbar</Navbar>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

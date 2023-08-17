@@ -1,22 +1,43 @@
-.navbar {
-  align-items: center;
-  background-color: #c9e5f4;
-  color: black;
-  justify-content: space-between;
-  padding: 10px 20px;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  z-index: 100;
-  overflow: hidden;
-}
+/* styles.css */
 
-.navbar-items {
-  display: flex;
-  flex-direction: row;
-  font-size: 1.5rem;
-  display: flex;
-  gap: 20px;
-  padding: 10px 20px;
-}
+.Navbar {
+    /* background-color: rgba(55, 71, 79, 0.7);Set your main color with transparency */
+    background-color: #37474F; /* Set your desired background color */
+    color: white; /* Set the font color for the links and brand */
+    padding: 1rem; /* Add spacing around the navbar */
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%; /* Set the width to 100% */
 
+      /* Add transition effect for smooth color change */
+    transition: background-color 0.3s, color 0.3s;
+
+  }
+  
+  .Navbar a {
+    color: white; /* Set the color for the navigation links */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 1rem; /* Add spacing between links */
+  }
+
+  .Navbar a:hover {
+    color: #FF5252; /* Change color on hover (use your accent color) */
+    background-color: #ECEFF1; /* Change background color on hover (use your neutral color) */
+  }
+  
+  /* Apply additional styles for active links if needed */
+  .Navbar a.active {
+    font-weight: bold; /* Apply bold font to active link */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .Navbar {
+      padding: 0.5rem; /* Adjust padding for smaller screens */
+    }
+    .Navbar a {
+      margin-right: 0.5rem; /* Adjust spacing for smaller screens */
+    }
+  }
+  
