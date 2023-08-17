@@ -13,6 +13,28 @@
   }
 }
 
+.App-java {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-java {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-C {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-C {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
 .App-header {
   background-color: #c9e5f4;
   min-height: 100vh;
@@ -36,3 +58,25 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes App-skills-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+}
+
+.App-Skills {
+  background-color: #c9e5f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #333333;
+}
+

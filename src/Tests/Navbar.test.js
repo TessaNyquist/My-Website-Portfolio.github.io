@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import CustomNavbar from './Navbar';
+import CustomNavbar from '../Components/Navbar';
 
 describe('CustomNavbar', () => {
   test('renders the navbar with correct text', () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Data from '..Data';
+import { Data } from './Data';
 
 /**
  * 
@@ -9,7 +9,7 @@ function DisplayItems() {
   return Data.map(skill => (
     <li key={skill.id}>
       <img
-        src={skill.image}
+        src={skill.image.props.src} // Access the image source properly
         alt={skill.name}
       />
     </li>
