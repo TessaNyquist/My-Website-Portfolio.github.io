@@ -1,5 +1,9 @@
 import logo from './logo.svg';
+//import Navbar from './Components/Navbar';
+import DisplayItems from './Components/displayItems';
 import './App.css';
+
+
 
 function App() {
   return (
@@ -17,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        <DisplayItems></DisplayItems>
       </header>
     </div>
   );
