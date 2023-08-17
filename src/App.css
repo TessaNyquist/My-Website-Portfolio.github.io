@@ -84,3 +84,43 @@
   color: #333333;
 }
 
+/* AboutMe styles */
+.AboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: #E8F0FE; /* Use your main color */
+  color: #37474F; /* Use your dark gray color for text */
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 800px; /* Set the maximum width of the section */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.AboutMe img {
+  max-width: 200px; /* Set the maximum width of the image */
+  border-radius: 0%; /* Make the image square */
+  margin-bottom: 1rem;
+}
+
+.AboutMe .App-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px; /* Adjust the maximum height as needed */
+}
+
+/* Adjust the image size in the AboutMe component */
+.AboutMe .App-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens if needed */
+  .AboutMe .App-image {
+    max-width: 80%; /* Decrease the maximum width for smaller screens */
+  }
+}

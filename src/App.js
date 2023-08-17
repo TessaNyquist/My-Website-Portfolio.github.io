@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 //import Navbar from './Components/Navbar';
 //import { Data } from './Data';
 import Navbar from "./Components/Navbar";
+import AboutMe from "./Components/AboutMe";
 import "./App.css";
 //import cpic from './Images/c.svg';
 //import javapic from './Images/java.svg';
@@ -30,6 +31,7 @@ function App() {
   return (
     <div className="App">
       <Navbar>Navbar</Navbar>
+      <AboutMe>AboutMe</AboutMe>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

@@ -1,0 +1,26 @@
+/* aboutMe.css */
+
+/* Style for the entire AboutMe component */
+.AboutMe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+    background-color: #E8F0FE;
+  }
+  
+  /* Style for the image */
+  .AboutMe img {
+    width: 50%; /* Ensure the image doesn't exceed its container */
+    height: auto;
+    /*width: 150px;  Adjust image width */
+    margin-bottom: 1rem;
+  }
+  
+  /* Style for the bio caption */
+  .AboutMe .caption {
+    font-size: 18px;
+    text-align: center;
+    color: #333; /* Set text color */
+  }
+  
