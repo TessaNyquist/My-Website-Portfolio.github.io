@@ -1,0 +1,44 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 2rem;
+  }
+  
+  .project-image {
+    width: 300px;
+    height: auto;
+    margin-right: 1rem;
+  }
+  
+  .project-description {
+    flex: 1;
+  }
+  
+  .project-description h3 {
+    margin-top: 0;
+  }
+  
+  .project-description p {
+    margin-bottom: 1rem;
+  }
+  
+  .github-button {
+    background-color: #333;
+    text-decoration: none; /* Remove underline from links */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .github-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+    align-items: center; 
+    text-decoration: none; /* Remove underline from links */
+  }
