@@ -16,19 +16,11 @@ function App() {
       <div className="App">
         <Navbar />
         <AboutMe />
-
         <Routes>
           <Route path="/projects" component={Projects} />
           <Route path="/resume" component={Resume} />
           <Route path="/blog" component={Blog} />
         </Routes>
-
-        <header className="App-header">
-          <p className="skillsTitle"> Languages/Frameworks</p>
-          <LanguageGrid className="LanguageGrid" data={Data} />
-          <p className="skillsTitle"> Tools</p>
-          <LanguageGrid className="LanguageGrid" data={ToolsData} />
-        </header>
         <footer className="App-footer">
           <Footer />
         </footer>
