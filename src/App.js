@@ -1,6 +1,5 @@
 import Navbar from "./Components/Navbar";
 import AboutMe from "./Components/AboutMe";
-<<<<<<< Updated upstream
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Home";
@@ -16,7 +15,6 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-<<<<<<< Updated upstream
         <AboutMe />
 
         <Routes>
@@ -31,37 +29,11 @@ function App() {
           <p className="skillsTitle"> Tools</p>
           <LanguageGrid className="LanguageGrid" data={ToolsData} />
         </header>
-
         <footer className="App-footer">
           <Footer />
         </footer>
       </div>
     </Router>
-=======
-        <Routes>
-          <Route exact path="/">
-            <AboutMe />
-            <header className="App-header">
-              <p className="skillsTitle"> Languages/Frameworks</p>
-              <LanguageGrid className="LanguageGrid" data={Data} />
-              <p className="skillsTitle"> Tools</p>
-              <LanguageGrid className="LanguageGrid" data={ToolsData} />
-            </header>
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/resume">
-            <Resume />
-          </Route>
-          <Route path="/blog">
-            <Blog />
-          </Route>
-        </Routes>
-        <Footer />
-      </Router>
-    </div>
->>>>>>> Stashed changes
   );
 }
 
