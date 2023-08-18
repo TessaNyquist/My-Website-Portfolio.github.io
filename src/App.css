@@ -147,10 +147,10 @@
 }
 
 .App-footer {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   /*padding: 10px;*/
-  background-color: #ECEFF1; /* Use your main color */
+  /*background-color: #ECEFF1; /* Use your main color */
   color: #37474F; /* Use your dark gray color for text */
   /*margin: 0;*/
   /*max-width: 90%; /* Set the maximum width of the section */

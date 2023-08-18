@@ -1,44 +1,55 @@
+/* ContactMe.css */
 
-.ContactMe {
-    /*background-color: #E8F0FE; /* Use your main color */
-    color: #37474F; /* Use your dark gray color for text */
-    border: .25rem solid #37474F;
-    margin: 2rem;
-    padding: 2rem;
-    /*border-radius: 10px;*/
-    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+.contact-me-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+    background-color: #ECEFF1;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
-  .ContactMe .Form.Label {
-    margin: 10rem; /* Add more space below the label */
-    padding: 10rem; /* Add padding to the label */
+  .contact-me-form {
+    display: flex;
+    flex-direction: column;
   }
   
-  .ContactMe .Form.Control[type="text"],
-  .ContactMe .Form.Control[type="email"],
-  .ContactMe .Form.Control[type="password"],
-  .ContactMe .Form.Select {
-    width: 100%; /* Set width to 100% */
-    margin: 10rem; /* Add space above the input box */
-    padding: 10rem;
-    /*margin-bottom: 1rem; /* Add more space below the input box */
+  .contact-me-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
   }
   
-  .ContactMe .Form.Group {
-    margin: 10em; /* Add more space between form groups */
-    padding: 10em;
+  .form-group {
+    margin-bottom: 1rem;
   }
   
-  .ContactMe .Button {
-    background-color: #FFB400; /* Use your amber accent color */
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #ffa000;/* lightgray;*/
     border: none;
-    padding: 100rem;
+    padding: 0.5rem 1rem;
     color: white;
-    border-radius: 1em;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out; /* Add smooth transition */
+    transition: background-color 0.3s ease-in-out;
   }
   
-  .ContactMe .Button:hover {
-    background-color: #FFA000; /* Use a slightly darker shade on hover */
+  button[type="submit"]:hover {
+    background-color: lightgray;
   }

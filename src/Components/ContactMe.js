@@ -1,8 +1,4 @@
-import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+import React from "react";
 import "./ContactMe.css";
 
 /**
@@ -12,30 +8,26 @@ import "./ContactMe.css";
  */
 function ContactMeForm() {
   return (
-    <Container>
-      <Form className="ContactMe">
-        <p> Contact Me </p>
-        <Row className="NameRow"></Row>
-        <Form.Group as={Row} controlId="formGridName">
-          <Form.Label>First Name:   </Form.Label>
-          <Form.Control type="first name" placeholder="First Name" />
-          <Form.Label>  Last Name:    </Form.Label>
-          <Form.Control type="Last name" placeholder="Last Name" />
-        </Form.Group>
-        <Form.Group as={Col} controlId="formGridEmail">
-          <Form.Label>Email:    </Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
-        </Form.Group>
-        <Form.Group as={Col} controlId="formGridMessage">
-          <Form.Label>Message:  </Form.Label>
-          <Form.Control type="message" placeholder="Enter message" />
-        </Form.Group>
-
-        <Button type="submit">
-          Submit
-        </Button>
-      </Form>
-    </Container>
+    <div className="contact-me-container">
+      <form className="contact-me-form">
+        <h2 className="contact-me-heading">Contact Me</h2>
+        <div className="form-group">
+          <label htmlFor="firstName">First Name:</label>
+          <input type="text" id="firstName" placeholder="First Name" />
+          <label htmlFor="lastName">Last Name:</label>
+          <input type="text" id="lastName" placeholder="Last Name" />
+        </div>
+        <div className="form-group">
+          <label htmlFor="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter email" />
+        </div>
+        <div className="form-group">
+          <label htmlFor="message">Message:</label>
+          <textarea id="message" placeholder="Enter message"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   );
 }
 
