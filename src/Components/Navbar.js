@@ -15,16 +15,16 @@ function NavBar() {
     <Navbar className="Navbar" data-bs-theme="dark" sticky="top">
     <Container>
       <Nav className="me-auto">
-        <Nav.Link as={Link} to="/">
+        <Nav.Link as={Link} to="/Home">
           Home
         </Nav.Link>
-        <Nav.Link as={Link} to="/projects">
+        <Nav.Link as={Link} to="/Projects">
           Projects
         </Nav.Link>
-        <Nav.Link as={Link} to="/resume">
+        <Nav.Link as={Link} to="/Resume">
           Résumé
         </Nav.Link>
-        <Nav.Link as={Link} to="/blog">
+        <Nav.Link as={Link} to="/Blog">
           Blog
         </Nav.Link>
       </Nav>
