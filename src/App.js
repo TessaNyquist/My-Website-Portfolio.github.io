@@ -17,8 +17,8 @@ import LanguageGrid from "./Components/LanguageGrid";
 
 function App() {
   return (
-    <div className="App">
       <Router>
+        <div className="App">
         <Navbar />
         <AboutMe />
 
