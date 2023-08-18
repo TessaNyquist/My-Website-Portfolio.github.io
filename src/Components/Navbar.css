@@ -10,7 +10,6 @@
     top: 0;
     width: 100%; /* Set the width to 100% */
     z-index: 100;
-
       /* Add transition effect for smooth color change */
     transition: background-color 0.3s, color 0.3s;
 
@@ -23,8 +22,9 @@
   }
 
   .Navbar a:hover {
-    color: #FF5252; /* Change color on hover (use your accent color) */
-    background-color: #ECEFF1; /* Change background color on hover (use your neutral color) */
+    color: grey; /* Change color on hover (use your accent color) */
+    /*background-color: #ECEFF1; /* Change background color on hover (use your neutral color) */
+    font-weight: bold;
   }
   
   /* Apply additional styles for active links if needed */
