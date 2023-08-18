@@ -14,9 +14,6 @@ function NavBar() {
   return (
     <Navbar className="Navbar" data-bs-theme="dark" sticky="top">
     <Container>
-      <Navbar.Brand as={Link} to="/">
-        Your Logo
-      </Navbar.Brand>
       <Nav className="me-auto">
         <Nav.Link as={Link} to="/">
           Home
