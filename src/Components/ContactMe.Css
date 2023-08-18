@@ -4,10 +4,10 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     border: 1px solid #ccc;
-    background-color: #ECEFF1;
+    background-color: #ECEFF1; /*background-color: #E8F0FE*/
     padding: 1rem;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /*may have the box shawdow go in affect when hovering*/
   }
   
   .contact-me-form {
@@ -22,6 +22,22 @@
     text-transform: uppercase;
   }
   
+  /*.form-group-row {
+    display: inline-flex;
+    justify-content: space-evenly;/*space-between;
+    margin-bottom: 1rem;
+  }
+  */
+
+
+  /*.larger-input {
+    width: 40%; 
+    padding: 0.5rem; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-right: 1rem; 
+  }*/
+
   .form-group {
     margin-bottom: 1rem;
   }
@@ -39,7 +55,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-  
+
+
   button[type="submit"] {
     background-color: #ffa000;/* lightgray;*/
     border: none;
@@ -53,3 +70,5 @@
   button[type="submit"]:hover {
     background-color: lightgray;
   }
+
+  

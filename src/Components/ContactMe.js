@@ -11,11 +11,15 @@ function ContactMeForm() {
     <div className="contact-me-container">
       <form className="contact-me-form">
         <h2 className="contact-me-heading">Contact Me</h2>
-        <div className="form-group">
-          <label htmlFor="firstName">First Name:</label>
-          <input type="text" id="firstName" placeholder="First Name" />
-          <label htmlFor="lastName">Last Name:</label>
-          <input type="text" id="lastName" placeholder="Last Name" />
+        <div className="form-group-row">
+          <div className="form-group">
+            <label htmlFor="firstName">First Name:</label>
+            <input type="text" id="firstName" placeholder="First Name" className="larger-input"/>
+          </div>
+          <div className="form-group">
+            <label htmlFor="lastName">Last Name:</label>
+            <input type="text" id="lastName" placeholder="Last Name" className="larger-input"/>
+          </div>
         </div>
         <div className="form-group">
           <label htmlFor="email">Email:</label>
