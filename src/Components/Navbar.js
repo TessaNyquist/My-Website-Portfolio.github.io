@@ -15,9 +15,9 @@ function NavBar() {
       <Navbar className="Navbar" data-bs-theme="dark">
         <Nav className="me-auto">
           <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Blog</Nav.Link>
-          <Nav.Link href="#link">Résumé</Nav.Link>
           <Nav.Link href="#link">Projects</Nav.Link>
+          <Nav.Link href="#link">Résumé</Nav.Link>
+          <Nav.Link href="#link">Blog</Nav.Link>
         </Nav>
       </Navbar>
     </Container>

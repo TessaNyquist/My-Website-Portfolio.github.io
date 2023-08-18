@@ -27,37 +27,6 @@
   }
 }
 
-/* App.css */
-
-/* Define animations or styles for each language */
-.language-item.c {
-  animation: c-animation infinite 10s linear;
-}
-
-.language-item.java {
-  animation: java-animation infinite 5s linear;
-}
-
-.language-item.python {
-  animation: python-animation infinite 8s linear;
-}
-
-
-/* Add more language-item classes as needed */
-
-/* Example animations */
-@keyframes c-animation {
-  /* Define your animation keyframes here */
-}
-
-@keyframes java-animation {
-  /* Define your animation keyframes here */
-}
-
-@keyframes python-animation {
-  /* Define your animation keyframes here */
-}
-
 .App-header {
   background-color: #c9e5f4;
   min-height: 100vh;
@@ -144,6 +113,12 @@
   }
 }
 
+.skillsTitle {
+  font-weight: bold;
+  margin: 2rem 0; /* Add margin to the top and bottom */
+  font-size: 1.5rem; /* Set font size */
+}
+
 .LanguageGrid {
   display: flex; /* Use flex display to make items horizontally aligned */
   justify-content: center; /* Center items horizontally */
@@ -169,4 +144,16 @@
 /* Apply the spinning animation to the language icons */
 .LanguageGridItem:hover img {
   animation: spin 1s linear infinite; /* Adjust the duration and animation timing as needed */
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: #ECEFF1; /* Use your main color */
+  color: #37474F; /* Use your dark gray color for text */
+  margin: 10%;
+  max-width: 90%; /* Set the maximum width of the section */
+  border-radius: 10px;
+  /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
 }
