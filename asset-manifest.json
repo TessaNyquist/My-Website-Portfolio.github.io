@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/My-Website-Portfolio.github.io/static/css/main.2ac54953.css",
+    "main.js": "/My-Website-Portfolio.github.io/static/js/main.32088327.js",
+    "static/js/787.71e672d5.chunk.js": "/My-Website-Portfolio.github.io/static/js/787.71e672d5.chunk.js",
+    "static/media/Tessa-Banner.png": "/My-Website-Portfolio.github.io/static/media/Tessa-Banner.c4d55d079692dfffd8e3.png",
+    "static/media/logo.svg": "/My-Website-Portfolio.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/visual-studio-code.svg": "/My-Website-Portfolio.github.io/static/media/visual-studio-code.1d2623196ef92c9d1d16482f9990adcc.svg",
+    "static/media/sql.svg": "/My-Website-Portfolio.github.io/static/media/sql.a9cb59a605d35c447649cf0732537ba4.svg",
+    "static/media/java.svg": "/My-Website-Portfolio.github.io/static/media/java.70a573760b056258b34b8dc483f15555.svg",
+    "static/media/python.svg": "/My-Website-Portfolio.github.io/static/media/python.0173b0ab42fa0cfe8b79d155808d5bff.svg",
+    "index.html": "/My-Website-Portfolio.github.io/index.html",
+    "static/media/c.svg": "/My-Website-Portfolio.github.io/static/media/c.67e40c1e57a4ad6e3a151a4266865853.svg",
+    "main.2ac54953.css.map": "/My-Website-Portfolio.github.io/static/css/main.2ac54953.css.map",
+    "main.32088327.js.map": "/My-Website-Portfolio.github.io/static/js/main.32088327.js.map",
+    "787.71e672d5.chunk.js.map": "/My-Website-Portfolio.github.io/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ac54953.css",
+    "static/js/main.32088327.js"
+  ]
+}
