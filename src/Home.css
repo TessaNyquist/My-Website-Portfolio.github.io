@@ -1,0 +1,168 @@
+
+.Navbar {
+    text-align: left;
+    background-color: #37474F;
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Add a higher z-index to keep it above other elements */
+  }
+  
+  .App {
+    text-align: center;
+    background-color: #c9e5f4;
+    overflow: auto; /* Enable scrolling */
+    height: 100vh; /* Set a full viewport height */
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #c9e5f4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #333333;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes App-skills-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+    
+  }
+  
+  .App-Skills {
+    background-color: #c9e5f4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #333333;
+  }
+  
+  /* AboutMe styles */
+  .AboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ECEFF1; /* Use your main color */
+    color: #37474F; /* Use your dark gray color for text */
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 800px; /* Set the maximum width of the section */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .AboutMe img {
+    max-width: 200px; /* Set the maximum width of the image */
+    border-radius: 0%; /* Make the image square */
+    margin-bottom: 1rem;
+  }
+  
+  .AboutMe .App-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; /* Adjust the maximum height as needed */
+  }
+  
+  /* Adjust the image size in the AboutMe component */
+  .AboutMe .App-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens if needed */
+    .AboutMe .App-image {
+      max-width: 80%; /* Decrease the maximum width for smaller screens */
+    }
+  }
+  
+  .skillsTitle {
+    font-weight: bold;
+    margin: 2rem 0; /* Add margin to the top and bottom */
+    font-size: 1.5rem; /* Set font size */
+  }
+  
+  .LanguageGrid {
+    display: flex; /* Use flex display to make items horizontally aligned */
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+  }
+  
+  .LanguageGridItem {
+    flex: 0 0 calc(33.33% - 1rem); /* Distribute items in 3 columns, adjust width as needed */
+    margin: 0.5rem; /* Add some margin between items */
+  }
+  
+  .LanguageGridItem img {
+    width: 150px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+  }
+  
+  /* Define the spinning animation */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Apply the spinning animation to the language icons */
+  .LanguageGridItem:hover img {
+    animation: spin 1s linear infinite; /* Adjust the duration and animation timing as needed */
+  }
+  
+  .App-footer {
+    /*display: flex;
+    flex-direction: column;
+    /*padding: 10px;*/
+    /*background-color: #ECEFF1; /* Use your main color */
+    color: #37474F; /* Use your dark gray color for text */
+    /*margin: 0;*/
+    /*max-width: 90%; /* Set the maximum width of the section */
+    /*border-radius: 10px;*/
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+  }
+  
+  /* Footer styles 
+  .Footer {
+    /*background-color: #37474F;*/
+    /*border: 2px solid #37474F; /* Add a border around the section 
+    padding: 5%;
+    align-items: center;
+  }
+  */

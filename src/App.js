@@ -1,3 +1,4 @@
+import React from "react";
 import Navbar from "./Components/Navbar";
 import AboutMe from "./Components/AboutMe";
 import "./App.css";
@@ -6,16 +7,18 @@ import Home from "./Home";
 import Projects from "./Projects";
 import Resume from "./Resume";
 import Blog from "./Blog";
+import Footer from "./Components/Footer";
+import Projects from './Projects';
+import Resume from './Resume';
+import Blog from './Blog';
 import { Data } from "./Components/Data";
 import { ToolsData } from "./Components/ToolsData";
 import LanguageGrid from "./Components/LanguageGrid";
-import Footer from "./Components/Footer";
-//import ContactMeForm from "./Components/ContactMe";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
+      <Router>
         <Navbar />
         <AboutMe />
 
