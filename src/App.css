@@ -1,11 +1,19 @@
 
 .Navbar {
   text-align: left;
+  background-color: #37474F;
+  color: white;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100; /* Add a higher z-index to keep it above other elements */
 }
 
 .App {
   text-align: center;
   background-color: #c9e5f4;
+  overflow: auto; /* Enable scrolling */
+  height: 100vh; /* Set a full viewport height */
 }
 
 .App-logo {
@@ -19,26 +27,35 @@
   }
 }
 
-.App-java {
-  height: 40vmin;
-  pointer-events: none;
+/* App.css */
+
+/* Define animations or styles for each language */
+.language-item.c {
+  animation: c-animation infinite 10s linear;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-java {
-    animation: App-logo-spin infinite 10s linear;
-  }
+.language-item.java {
+  animation: java-animation infinite 5s linear;
 }
 
-.App-C {
-  height: 40vmin;
-  pointer-events: none;
+.language-item.python {
+  animation: python-animation infinite 8s linear;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-C {
-    animation: App-logo-spin infinite 10s linear;
-  }
+
+/* Add more language-item classes as needed */
+
+/* Example animations */
+@keyframes c-animation {
+  /* Define your animation keyframes here */
+}
+
+@keyframes java-animation {
+  /* Define your animation keyframes here */
+}
+
+@keyframes python-animation {
+  /* Define your animation keyframes here */
 }
 
 .App-header {
@@ -125,4 +142,31 @@
   .AboutMe .App-image {
     max-width: 80%; /* Decrease the maximum width for smaller screens */
   }
+}
+
+.LanguageGrid {
+  display: flex; /* Use flex display to make items horizontally aligned */
+  justify-content: center; /* Center items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+}
+
+.LanguageGridItem {
+  flex: 0 0 calc(33.33% - 1rem); /* Distribute items in 3 columns, adjust width as needed */
+  margin: 0.5rem; /* Add some margin between items */
+}
+
+.LanguageGridItem img {
+  width: 150px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+}
+
+/* Define the spinning animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Apply the spinning animation to the language icons */
+.LanguageGridItem:hover img {
+  animation: spin 1s linear infinite; /* Adjust the duration and animation timing as needed */
 }

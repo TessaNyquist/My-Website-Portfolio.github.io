@@ -1,0 +1,16 @@
+/* Update the CSS for LanguageGrid */
+
+.LanguageGrid {
+    display: flex; /* Use flexbox to create a horizontal row */
+    flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Align the items vertically */
+    margin-top: 2rem; /* Add some top margin for spacing */
+  }
+  
+  .LanguageGridItem {
+    flex: 0 0 calc(33.33% - 1rem); /* Divide the width equally into three columns */
+    margin: 0.5rem; /* Add margin around each item */
+    text-align: center; /* Center the content */
+  }
+  
