@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-Website-Portfolio.github.io/static/css/main.7846f63b.css",
+    "main.css": "/My-Website-Portfolio.github.io/static/css/main.5a7a04bd.css",
     "main.js": "/My-Website-Portfolio.github.io/static/js/main.beb0869b.js",
     "static/js/787.71e672d5.chunk.js": "/My-Website-Portfolio.github.io/static/js/787.71e672d5.chunk.js",
     "static/media/Tessa-Banner.png": "/My-Website-Portfolio.github.io/static/media/Tessa-Banner.c4d55d079692dfffd8e3.png",
@@ -15,12 +15,12 @@
     "index.html": "/My-Website-Portfolio.github.io/index.html",
     "static/media/icons8-css.svg": "/My-Website-Portfolio.github.io/static/media/icons8-css.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/icons8-html-5.svg": "/My-Website-Portfolio.github.io/static/media/icons8-html-5.c1bb84e022ca9d76984d4b943bd678fd.svg",
-    "main.7846f63b.css.map": "/My-Website-Portfolio.github.io/static/css/main.7846f63b.css.map",
+    "main.5a7a04bd.css.map": "/My-Website-Portfolio.github.io/static/css/main.5a7a04bd.css.map",
     "main.beb0869b.js.map": "/My-Website-Portfolio.github.io/static/js/main.beb0869b.js.map",
     "787.71e672d5.chunk.js.map": "/My-Website-Portfolio.github.io/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7846f63b.css",
+    "static/css/main.5a7a04bd.css",
     "static/js/main.beb0869b.js"
   ]
 }
