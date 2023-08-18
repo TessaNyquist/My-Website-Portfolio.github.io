@@ -1,8 +1,8 @@
 import Navbar from "./Components/Navbar";
 import AboutMe from "./Components/AboutMe";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-//import Home from "./Home";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Home";
 import Projects from "./Projects";
 import Resume from "./Resume";
 import Blog from "./Blog";
@@ -19,11 +19,11 @@ function App() {
         <Navbar />
         <AboutMe />
 
-        <Switch>
+        <Routes>
           <Route path="/projects" component={Projects} />
           <Route path="/resume" component={Resume} />
           <Route path="/blog" component={Blog} />
-        </Switch>
+        </Routes>
 
         <header className="App-header">
           <p className="skillsTitle"> Languages/Frameworks</p>
