@@ -6,7 +6,7 @@ function SocialButtons() {
     <div>
       <a
         className="LinkedInButton"
-        href="https://www.linkedin.com/"
+        href="https://www.linkedin.com/in/tessa-nyquist/"
         target="_blank"
         rel="noopener noreferrer"
       >
