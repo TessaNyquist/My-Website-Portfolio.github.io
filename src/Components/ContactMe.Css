@@ -1,58 +1,44 @@
-/* contactMeForm.css */
 
-/* Style for the ContactMeForm component */
-.Container {
-    margin-top: 2rem; /* Add space above the form */
-    margin-bottom: 2rem; /* Add space below the form */
-  }
-  
-  .Form {
-    padding: 1rem;
-    background-color: #E8F0FE; /* Use your main color */
+.ContactMe {
+    /*background-color: #E8F0FE; /* Use your main color */
     color: #37474F; /* Use your dark gray color for text */
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: .25rem solid #37474F;
+    margin: 2rem;
+    padding: 2rem;
+    /*border-radius: 10px;*/
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
   }
   
-  .Form.Group {
-    margin-bottom: 1rem; /* Add space between form groups */
+  .ContactMe .Form.Label {
+    margin: 10rem; /* Add more space below the label */
+    padding: 10rem; /* Add padding to the label */
   }
   
-  .Form.Label {
-    font-weight: bold;
-    margin-bottom: 0.5rem; /* Add space below the label */
-    margin-top: 1rem; /* Add space above the label */
-    padding: 0.5rem; /* Add padding to the label */
-  }
-  
-  .Form.Control[type="text"],
-  .Form.Control[type="email"],
-  .Form.Control[type="password"],
-  .Form.Select {
+  .ContactMe .Form.Control[type="text"],
+  .ContactMe .Form.Control[type="email"],
+  .ContactMe .Form.Control[type="password"],
+  .ContactMe .Form.Select {
     width: 100%; /* Set width to 100% */
-    margin-top: 0.5rem; /* Add space above the input box */
+    margin: 10rem; /* Add space above the input box */
+    padding: 10rem;
+    /*margin-bottom: 1rem; /* Add more space below the input box */
   }
   
-  
-  .Form.Check {
-    margin-top: 1rem; /* Add space above the checkbox */
+  .ContactMe .Form.Group {
+    margin: 10em; /* Add more space between form groups */
+    padding: 10em;
   }
   
-  .Button {
+  .ContactMe .Button {
     background-color: #FFB400; /* Use your amber accent color */
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 100rem;
     color: white;
-    border-radius: 5px;
+    border-radius: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out; /* Add smooth transition */
   }
   
-  .Button:hover {
+  .ContactMe .Button:hover {
     background-color: #FFA000; /* Use a slightly darker shade on hover */
-  }
-  
-  /* Media query for responsiveness */
-  @media (max-width: 768px) {
-    /* Adjust styles for smaller screens if needed */
   }

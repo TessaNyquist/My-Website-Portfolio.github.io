@@ -146,14 +146,23 @@
   animation: spin 1s linear infinite; /* Adjust the duration and animation timing as needed */
 }
 
-.footer {
+.App-footer {
   display: flex;
-  flex-direction: row;
-  padding: 10px;
+  flex-direction: column;
+  /*padding: 10px;*/
   background-color: #ECEFF1; /* Use your main color */
   color: #37474F; /* Use your dark gray color for text */
-  margin: 10%;
-  max-width: 90%; /* Set the maximum width of the section */
-  border-radius: 10px;
+  /*margin: 0;*/
+  /*max-width: 90%; /* Set the maximum width of the section */
+  /*border-radius: 10px;*/
   /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
 }
+
+/* Footer styles 
+.Footer {
+  /*background-color: #37474F;*/
+  /*border: 2px solid #37474F; /* Add a border around the section 
+  padding: 5%;
+  align-items: center;
+}
+*/

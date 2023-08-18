@@ -1,0 +1,22 @@
+.SocialButtons {
+    margin-top: 1rem;
+  }
+  
+  .LinkedInButton,
+  .GithubButton {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    background-color: #E8F0FE;
+    color: #37474F;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .LinkedInButton:hover,
+  .GithubButton:hover {
+    background-color: #37474F;
+    color: white;
+  }
+  

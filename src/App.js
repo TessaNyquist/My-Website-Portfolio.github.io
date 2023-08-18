@@ -4,7 +4,8 @@ import "./App.css";
 import { Data } from "./Components/Data";
 import { ToolsData } from "./Components/ToolsData";
 import LanguageGrid from "./Components/LanguageGrid";
-import ContactMeForm from "./Components/ContactMe";
+import Footer from "./Components/Footer";
+//import ContactMeForm from "./Components/ContactMe";
 
 function App() {
   return (
@@ -17,10 +18,8 @@ function App() {
         <p className="skillsTitle"> Tools</p>
         <LanguageGrid className="LanguageGrid" data={ToolsData} />
       </header>
-      <body>
-        <div className="footer">
-          <ContactMeForm />
-        </div>
+      <body className="App-footer">
+        <Footer />
       </body>
     </div>
   );
