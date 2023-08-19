@@ -19,8 +19,8 @@ function App() {
           <Route path="My-Website-Portfolio.github.io" element={<Home />} />
           <Route path="My-Website-Portfolio.github.io/Home" element={<Home />}/>
           <Route path="My-Website-Portfolio.github.io/Projects" element={<Projects />} />
-          <Route path="My-Website-Portfolio.github.io/resume" element={<Resume />}/>
-          <Route path="My-Website-Portfolio.github.io/blog" element={<Blog />} />
+          <Route path="My-Website-Portfolio.github.io/Résumé" element={<Resume />}/>
+          <Route path="My-Website-Portfolio.github.io/Blog" element={<Blog />} />
         </Routes>
         <footer className="App-footer">
           <Footer />
