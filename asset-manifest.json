@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Website-Portfolio.github.io/static/css/main.2805387e.css",
-    "main.js": "/My-Website-Portfolio.github.io/static/js/main.048e6c98.js",
+    "main.css": "/My-Website-Portfolio.github.io/static/css/main.dc3ec915.css",
+    "main.js": "/My-Website-Portfolio.github.io/static/js/main.e454f58c.js",
     "static/js/787.71e672d5.chunk.js": "/My-Website-Portfolio.github.io/static/js/787.71e672d5.chunk.js",
     "static/media/Tessa-Banner.png": "/My-Website-Portfolio.github.io/static/media/Tessa-Banner.c4d55d079692dfffd8e3.png",
     "static/media/Software-Developer-Résumé.pdf": "/My-Website-Portfolio.github.io/static/media/Software-Developer-Résumé.99df29c89a2ce4921d6d.pdf",
@@ -17,12 +17,12 @@
     "static/media/atlassian_jira-icon.svg": "/My-Website-Portfolio.github.io/static/media/atlassian_jira-icon.6476811a61f055b66dfcf45e2d1f77ca.svg",
     "static/media/icons8-css.svg": "/My-Website-Portfolio.github.io/static/media/icons8-css.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/icons8-html-5.svg": "/My-Website-Portfolio.github.io/static/media/icons8-html-5.c1bb84e022ca9d76984d4b943bd678fd.svg",
-    "main.2805387e.css.map": "/My-Website-Portfolio.github.io/static/css/main.2805387e.css.map",
-    "main.048e6c98.js.map": "/My-Website-Portfolio.github.io/static/js/main.048e6c98.js.map",
+    "main.dc3ec915.css.map": "/My-Website-Portfolio.github.io/static/css/main.dc3ec915.css.map",
+    "main.e454f58c.js.map": "/My-Website-Portfolio.github.io/static/js/main.e454f58c.js.map",
     "787.71e672d5.chunk.js.map": "/My-Website-Portfolio.github.io/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2805387e.css",
-    "static/js/main.048e6c98.js"
+    "static/css/main.dc3ec915.css",
+    "static/js/main.e454f58c.js"
   ]
 }
