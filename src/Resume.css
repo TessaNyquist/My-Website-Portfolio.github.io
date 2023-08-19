@@ -11,7 +11,7 @@
   
   .download-button {
     display: inline-block;
-    background-color: #007bff;
+    background-color: #ffa000;/* lightgray;*/
     color: white;
     border: none;
     padding: 10px 20px;
@@ -22,5 +22,5 @@
   }
   
   .download-button:hover {
-    background-color: #0056b3;
+    background-color: lightgray;
   }
