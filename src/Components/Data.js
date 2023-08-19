@@ -7,6 +7,8 @@ import logo from "../Images/icons8-react-native.svg";
 import html from "../Images/icons8-html-5.svg";
 import css from "../Images/icons8-css.svg";
 import sql from "../Images/sql.svg";
+import bootstrap from "../Images/icons8-bootstrap.svg";
+import javascript from "../Images/icons8-javascript.svg";
 
 export const Data = [
   {
@@ -28,12 +30,6 @@ export const Data = [
     className: "python" // Add a className property
   },
   {
-    id: 4,
-    image: <img src={logo} className="react" alt="react" />,
-    name: "react",
-    className: "react" // Add a className property
-  },
-  {
     id: 5,
     image: <img src={html} className="html" alt="html" />,
     name: "html",
@@ -46,9 +42,28 @@ export const Data = [
     className: "css" // Add a className property
   },
   {
+    id: 9,
+    image: <img src={javascript} className="javascript" alt="javascript" />,
+    name: "javascript",
+    className: "javascript" // Add a className property
+  },
+  {
+    id: 4,
+    image: <img src={logo} className="react" alt="react" />,
+    name: "react",
+    className: "react" // Add a className property
+  },
+  {
+    id: 8,
+    image: <img src={bootstrap} className="bootstrap" alt="bootstrap" />,
+    name: "bootstrap",
+    className: "bootstrap" // Add a className property
+  },
+  {
     id: 7,
     image: <img src={sql} className="sql" alt="sql" />,
     name: "sql",
     className: "sql" // Add a className property
-  }
+  },
+
 ];
