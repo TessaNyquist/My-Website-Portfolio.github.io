@@ -1,19 +1,17 @@
-
-.Navbar {
-    text-align: left;
-    background-color: #37474F;
-    color: white;
-    padding: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 100; /* Add a higher z-index to keep it above other elements */
-  }
-  
   .App {
     text-align: center;
     background-color: #c9e5f4;
     overflow: auto; /* Enable scrolling */
     height: 100vh; /* Set a full viewport height */
+  }
+
+  .Accordian {
+    text-align: left;
+    align-items: center;
+    background-color: #c9e5f4;
+    overflow: auto; /* Enable scrolling */
+    height: 100vh; /* Set a full viewport height */
+
   }
   
   .App-logo {

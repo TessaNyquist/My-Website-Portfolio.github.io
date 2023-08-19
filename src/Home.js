@@ -10,7 +10,7 @@ function App() {
   return (
       <div className="App">
         <AboutMe />
-        <Accordion/>
+        <Accordion className="Accordian"/>
         <header className="App-header">
           <p className="skillsTitle"> Languages/Frameworks</p>
           <LanguageGrid className="LanguageGrid" data={Data} />
