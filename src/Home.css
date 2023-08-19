@@ -6,7 +6,7 @@
   }
 
   .Accordian {
-    text-align: left;
+    display: flex;
     align-items: center;
     background-color: #c9e5f4;
     overflow: auto; /* Enable scrolling */

@@ -1,46 +1,61 @@
+/* Accordion container */
 .accordion-container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+.accordion {
+    width: calc(60% - 1rem);
+    /* max-width: 400px; Adjust as needed */
+    margin: auto;
   }
   
-  .accordion {
-    width: calc(50% - 1rem);
-  }
-  
+  /* Accordion item */
   .accordion-item {
-    border: 1px solid #ccc;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #ECEFF1; /* Use your main color */
+    color: #37474F; /* Use your dark gray color for text */
     text-align: left;
-    border-radius: 5px;
-    margin: 1rem;
-    overflow: hidden;
+    margin: 2rem auto;
+    max-width: 800px; /* Set the maximum width of the section */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: height 0.3s ease-in-out;
   }
   
   .accordion-item.open {
     height: auto;
+    font-weight: none;
   }
-  
+
+  /* Accordion header */
   .accordion-header {
     background-color: #f0f0f0;
     padding: 0.5rem;
     display: flex;
     justify-content: space-between;
-    align-items: left;
     cursor: pointer;
+    justify-content: space-between;
+    font-weight: bold;
   }
   
+  /* Accordion icon */
   .accordion-icon {
     font-size: 1.5rem;
+    font-weight: none;
   }
   
+  
+  /* Accordion content */
   .accordion-content {
     padding: 1rem;
-    align-items: left;
-    background-color: #fff;
+    background-color: #f9f9f9;
     overflow: hidden;
+    text-align: left;
+    font-weight: none;
   }
   
