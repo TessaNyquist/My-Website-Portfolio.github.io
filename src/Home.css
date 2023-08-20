@@ -7,13 +7,44 @@
 
   .Accordian {
     display: flex;
-    align-items: center;
     background-color: #c9e5f4;
     overflow: auto; /* Enable scrolling */
     height: 100vh; /* Set a full viewport height */
 
   }
+
+  .button-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /* Distribute buttons evenly across the row */
+    margin-top: 1rem;
+  }
   
+  .resume-button,
+  .LinkedInButtonHome,
+  .GithubButtonHome {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    background-color: #ECEFF1;
+    color: #37474F;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    border: none;
+    width: calc(33.33% - 1rem); /* Distribute buttons equally */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border:none;
+  }
+  
+  .resume-button:hover,
+  .LinkedInButtonHome:hover,
+  .GithubButtonHome:hover {
+    background-color: #37474F;
+    color: white;
+  }
+
   .App-logo {
     height: 40vmin;
     pointer-events: none;
@@ -143,24 +174,3 @@
   .LanguageGridItem:hover img {
     animation: spin 1s linear infinite; /* Adjust the duration and animation timing as needed */
   }
-  
-  .App-footer {
-    /*display: flex;
-    flex-direction: column;
-    /*padding: 10px;*/
-    /*background-color: #ECEFF1; /* Use your main color */
-    color: #37474F; /* Use your dark gray color for text */
-    /*margin: 0;*/
-    /*max-width: 90%; /* Set the maximum width of the section */
-    /*border-radius: 10px;*/
-    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
-  }
-  
-  /* Footer styles 
-  .Footer {
-    /*background-color: #37474F;*/
-    /*border: 2px solid #37474F; /* Add a border around the section 
-    padding: 5%;
-    align-items: center;
-  }
-  */
