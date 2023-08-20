@@ -35,7 +35,7 @@ function Projects() {
       iframeSrc: "https://www.sitepoint.com/react-tutorial-build-calculator-app/",
       githubUrl: "https://github.com/your-github-repo-url"
     },
-    {
+    { 
       title: "Orginal Web Portfolio",
       description:
         "Background: To prepare for my Asteroids spinoff project, I decided to enhance my knowledge of React through a smaller project with guided instructions. I followed a tutorial on building a calculator using React, which allowed me to gain a deeper understanding of setting up a React application and leveraging its functionalities such as states and props. I deviated from the tutorial and further customized the calculator's colors and incorporated additional features like square root and exponent function. For reference, you can access the tutorial I followed at the following link:",
