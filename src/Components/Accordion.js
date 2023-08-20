@@ -40,7 +40,7 @@ function Accordion() {
       title: "Certifications",
       items: [
         "National Security Agency (NSA) Certification",
-        "IBM Data Analyst Professional Certificate",
+        "IBM Data Analyst Professional Certificate (in progress)",
       ],
     },
   ];
