@@ -6,13 +6,13 @@ import "./Projects.css";
 function ProjectCard({ title, description, iframeSrc, githubUrl }) {
   return (
     <div className="project">
-      <img src={calculatorpic} alt={title} className="project-image" />
+      {/*<*/}
+      <div className="project-iframe">
+        <iframe title={title} src={iframeSrc} frameborder="0" allowfullscreen></iframe>
+      </div>
       <div className="project-description">
         <h3>{title}</h3>
         <p>{description}</p>
-      </div>
-      <div className="project-iframe">
-        <iframe title={title} src={iframeSrc} frameborder="0" allowfullscreen></iframe>
       </div>
       <div className="project-button">
         <a href={githubUrl} target="_blank" rel="noopener noreferrer">
@@ -31,14 +31,14 @@ function Projects() {
     {
       title: "Calculator Project",
       description:
-        "Background: To prepare for my Asteroids spinoff project, I decided to enhance my knowledge of React through a smaller project with guided instructions. I followed a tutorial on building a calculator using React, which allowed me to gain a deeper understanding of setting up a React application and leveraging its functionalities such as states and props. I deviated from the tutorial and further customized the calculator's colors and incorporated additional features like square root and exponent function. For reference, you can access the tutorial I followed at the following link:",
-      iframeSrc: "https://www.sitepoint.com/react-tutorial-build-calculator-app/",
+        "Background: I wanted to gsin more knowledge about React. So, I decided to work on a smaller project with guided instructions. I followed a tutorial on building a calculator using React, which allowed me to gain a deeper understanding of setting up a React application and leveraging its functionalities such as states and props. I deviated from the tutorial and further customized the calculator's colors and incorporated additional features like square root and exponent function. For reference, you can access the tutorial I followed at the following link:",
+      iframeSrc: { calculatorpic },
       githubUrl: "https://github.com/your-github-repo-url"
     },
     { 
       title: "Orginal Web Portfolio",
       description:
-        "Background: To prepare for my Asteroids spinoff project, I decided to enhance my knowledge of React through a smaller project with guided instructions. I followed a tutorial on building a calculator using React, which allowed me to gain a deeper understanding of setting up a React application and leveraging its functionalities such as states and props. I deviated from the tutorial and further customized the calculator's colors and incorporated additional features like square root and exponent function. For reference, you can access the tutorial I followed at the following link:",
+        "Background: I developed this website to gain practical experience in web design and coding. Through working with HTML, CSS, and JavaScript, I've honed my skills and learned to create engaging user interfaces. As I progress, I'm adding more features like a blog and contact page to make this platform even more versatile and functional.",
       iframeSrc: "https://tessanyquist.github.io/Project_Website.github.io/index.html",
       githubUrl: "https://github.com/TessaNyquist/Project_Website.github.io"
     }
