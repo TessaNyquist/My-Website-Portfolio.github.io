@@ -20,7 +20,7 @@
     background-color: #ECEFF1; /* Use your main color */
     color: #37474F; /* Use your dark gray color for text */
     text-align: left;
-    margin: 2rem auto;
+    margin: 1rem auto;
     max-width: 800px; /* Set the maximum width of the section */
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -39,7 +39,6 @@
     display: flex;
     justify-content: space-between;
     cursor: pointer;
-    justify-content: space-between;
     font-weight: bold;
   }
   

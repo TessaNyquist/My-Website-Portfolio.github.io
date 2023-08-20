@@ -1,19 +1,22 @@
 .SocialButtons {
-    margin-top: 1rem;
+  width: 100%;
   }
-  
+
+  .DownloadButton,
   .LinkedInButton,
   .GithubButton {
-    display: inline-block;
     padding: 0.5rem 1rem;
     margin: 0 0.5rem;
-    background-color: #E8F0FE;
-    color: #37474F;
+    color: #37474F; /* Use your dark gray color for text */
+    background-color: #ECEFF1; /* Use your main color */
     text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    min-width: calc(3333.33% - 1rem);
+
   }
-  
+  .DownloadButton:hover,
   .LinkedInButton:hover,
   .GithubButton:hover {
     background-color: #37474F;

@@ -14,35 +14,12 @@
   }
 
   .button-row {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1);
     align-items: center;
+    background-color: #c9e5f4;
     justify-content: space-evenly; /* Distribute buttons evenly across the row */
-    margin-top: 1rem;
-  }
-  
-  .resume-button,
-  .LinkedInButtonHome,
-  .GithubButtonHome {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    margin: 0;
-    background-color: #ECEFF1;
-    color: #37474F;
-    text-decoration: none;
-    border-radius: 10px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    cursor: pointer;
-    border: none;
-    width: calc(33.33% - 1rem); /* Distribute buttons equally */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border:none;
-  }
-  
-  .resume-button:hover,
-  .LinkedInButtonHome:hover,
-  .GithubButtonHome:hover {
-    background-color: #37474F;
-    color: white;
+    margin-top: 2rem;
   }
 
   .App-logo {
