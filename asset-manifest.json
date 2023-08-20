@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/My-Website-Portfolio.github.io/static/css/main.9e8b35a3.css",
-    "main.js": "/My-Website-Portfolio.github.io/static/js/main.84899449.js",
+    "main.css": "/My-Website-Portfolio.github.io/static/css/main.69a75993.css",
+    "main.js": "/My-Website-Portfolio.github.io/static/js/main.0da7b0dc.js",
     "static/js/787.71e672d5.chunk.js": "/My-Website-Portfolio.github.io/static/js/787.71e672d5.chunk.js",
     "static/media/Tessa-Banner.png": "/My-Website-Portfolio.github.io/static/media/Tessa-Banner.c4d55d079692dfffd8e3.png",
     "static/media/Software-Developer-Résumé.pdf": "/My-Website-Portfolio.github.io/static/media/Software-Developer-Résumé.99df29c89a2ce4921d6d.pdf",
-    "static/media/modified-calculator.png": "/My-Website-Portfolio.github.io/static/media/modified-calculator.05364cb2893a0b4d8e1e.png",
     "static/media/visual-studio-code.svg": "/My-Website-Portfolio.github.io/static/media/visual-studio-code.1d2623196ef92c9d1d16482f9990adcc.svg",
     "static/media/sql.svg": "/My-Website-Portfolio.github.io/static/media/sql.a9cb59a605d35c447649cf0732537ba4.svg",
     "static/media/icons8-java.svg": "/My-Website-Portfolio.github.io/static/media/icons8-java.5386b56c3206b6bd70b1053534d73dc3.svg",
@@ -19,12 +18,12 @@
     "static/media/icons8-bootstrap.svg": "/My-Website-Portfolio.github.io/static/media/icons8-bootstrap.91aad92a015faa64813b5f46723153a8.svg",
     "static/media/icons8-css.svg": "/My-Website-Portfolio.github.io/static/media/icons8-css.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/icons8-html-5.svg": "/My-Website-Portfolio.github.io/static/media/icons8-html-5.c1bb84e022ca9d76984d4b943bd678fd.svg",
-    "main.9e8b35a3.css.map": "/My-Website-Portfolio.github.io/static/css/main.9e8b35a3.css.map",
-    "main.84899449.js.map": "/My-Website-Portfolio.github.io/static/js/main.84899449.js.map",
+    "main.69a75993.css.map": "/My-Website-Portfolio.github.io/static/css/main.69a75993.css.map",
+    "main.0da7b0dc.js.map": "/My-Website-Portfolio.github.io/static/js/main.0da7b0dc.js.map",
     "787.71e672d5.chunk.js.map": "/My-Website-Portfolio.github.io/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e8b35a3.css",
-    "static/js/main.84899449.js"
+    "static/css/main.69a75993.css",
+    "static/js/main.0da7b0dc.js"
   ]
 }
