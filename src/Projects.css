@@ -10,6 +10,8 @@
 }
 
 .project-iframe {
+  padding: 1rem;
+  margin-bottom: 2rem;
   width: 150%;
   height: 80%;
   border: none;
@@ -29,24 +31,31 @@
 
 .project-button {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  margin-top: 1rem;
-}
-
-.github-button {
-  background-color: #333;
   text-decoration: none;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
+  margin: 0 0.5rem;
+  width: 800rem;
+  padding: 0.5rem 1rem;
 }
 
-.github-icon {
-  width: 20px;
-  height: auto;
-  margin-right: 5px;
+.link-button, 
+.github-button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  color:#ECEFF1 ; /* Use your dark gray color for text */
+  background-color: #37474F; /* Use your main color */
+  font-weight: bold;
+  
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.link-button:hover, 
+.github-button:hover {
+  color: #37474F; /* Use your dark gray color for text */
+  background-color: #ECEFF1; /* Use your main color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
 }
