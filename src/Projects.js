@@ -1,5 +1,4 @@
 import React from "react";
-//import github from "./Images/icons8-github.svg";
 import "./Projects.css";
 
 function ProjectCard({ title, description, link, iframeSrc, githubUrl }) {
