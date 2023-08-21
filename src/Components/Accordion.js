@@ -10,12 +10,12 @@ function AccordionItem({ title, items }) {
 
   return (
     <div className={`accordion-item ${isOpen ? "open" : ""}`}>
-      <div className="accordion-header" onClick={toggleAccordion}>
+      <div className="accordion-header" onClick={toggleAccordion} data-testid="accordion-header">
         {title}
         <span className="accordion-icon">{isOpen ? "▼" : "►"}</span>
       </div>
       {isOpen && (
-        <div className="accordion-content">
+        <div className="accordion-content" data-testid="accordion-content">
           <ul>
             {items.map((item, index) => (
               <li key={index}>{item}</li>
