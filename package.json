@@ -17,7 +17,10 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.16.0",
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.0.0",
+    "istanbul-lib-instrument": "^6.0.0",
+    "istanbul-reports": "^3.1.6",
+    "jest": "^27.5.1"
   },
   "scripts": {
     "predeploy": "npm run build",

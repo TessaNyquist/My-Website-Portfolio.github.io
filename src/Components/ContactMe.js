@@ -2,9 +2,13 @@ import React from "react";
 import "./ContactMe.css";
 
 /**
- * This method currently outlines the ContactMe method at the bottom of my webpage.
+ * Renders a contact form component that allows users to send messages to the website owner.
  *
- * @returns
+ * The component provides a form with fields for the user to input their first name, last name,
+ * email, and message. When the user submits the form, the data is sent to the specified
+ * Formspree endpoint for processing.
+ *
+ * @returns {JSX.Element} The ContactMeForm component.
  */
 function ContactMeForm() {
   return (
